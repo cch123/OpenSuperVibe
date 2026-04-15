@@ -1,6 +1,8 @@
-# SuperVibe
+# OpenSuperVibe
 
-A macOS menu bar app for local voice-to-text input with optional translation. Speak naturally, and the transcribed (or translated) text is automatically pasted into the active application.
+OpenSuperVibe is an open-source macOS menu bar app for local voice-to-text input with optional translation. Speak naturally, and the transcribed (or translated) text is automatically pasted into the active application.
+
+The macOS app, Swift target, and executable are currently named `SuperVibe`.
 
 ## Features
 
@@ -46,7 +48,7 @@ brew install pipx
 pipx install mlx-audio
 ```
 
-SuperVibe looks for the `mlx-audio` Python environment at:
+OpenSuperVibe looks for the `mlx-audio` Python environment at:
 
 ```text
 ~/.local/pipx/venvs/mlx-audio/bin/python3
