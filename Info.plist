@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key>
+    <string>SuperVibe</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.supervibe.app</string>
+    <key>CFBundleName</key>
+    <string>SuperVibe</string>
+    <key>CFBundleDisplayName</key>
+    <string>SuperVibe</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>SuperVibe needs microphone access for voice input.</string>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>SuperVibe captures screenshots for context-aware text processing.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>SuperVibe uses system events to paste text into the active application.</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+    </dict>
+</dict>
+</plist>
