@@ -47,7 +47,7 @@ Click the waveform icon in the menu bar to:
 - Select a translation target language (or turn translation off)
 - Quit the app
 
-| Engine selection | Language selection |
+| Model selection | Language selection |
 |---|---|
 | <img src="Assets/3.png" width="320" alt="Engine selection menu"> | <img src="Assets/4.png" width="320" alt="Language selection menu"> |
 
