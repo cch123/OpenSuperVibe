@@ -4,12 +4,28 @@ OpenSuperVibe is an open-source macOS menu bar app for local voice-to-text input
 
 The macOS app, Swift target, and executable are currently named `SuperVibe`.
 
+## Demo
+
+<video src="Assets/demo.mp4" width="600" controls></video>
+
 ## Features
 
 - **Local Voice Transcription** -- press a hotkey, speak, and the text is typed for you
 - **Optional Translation** -- translate speech into English, Chinese, Japanese, Korean, French, Spanish, or German
 - **Cyberpunk Overlay UI** -- floating HUD with animated waveform bars, neon color coding, and scan-line aesthetics
 - **Global Hotkeys** -- works system-wide, no need to focus the app
+
+### Transcription & Polishing
+
+Speak naturally -- the overlay shows the raw transcription and a polished version side by side.
+
+<img src="Assets/1.png" width="560" alt="Transcription and polishing overlay">
+
+### Translation
+
+Switch to translation mode and the overlay turns magenta, showing the original transcription alongside the translated text.
+
+<img src="Assets/2.png" width="560" alt="Translation overlay">
 
 ## Hotkeys
 
@@ -27,8 +43,13 @@ The macOS app, Swift target, and executable are currently named `SuperVibe`.
 Click the waveform icon in the menu bar to:
 
 - Manually start/stop recording
+- Choose between Cloud Pipeline and local VibeVoice engine
 - Select a translation target language (or turn translation off)
 - Quit the app
+
+| Engine selection | Language selection |
+|---|---|
+| <img src="Assets/3.png" width="320" alt="Engine selection menu"> | <img src="Assets/4.png" width="320" alt="Language selection menu"> |
 
 ## Requirements
 
