@@ -43,7 +43,7 @@ Switch to translation mode and the overlay turns magenta, showing the original t
 Click the waveform icon in the menu bar to:
 
 - Manually start/stop recording
-- Choose between Cloud Pipeline and local VibeVoice engine
+- Choose between two local VibeVoice engines
 - Select a translation target language (or turn translation off)
 - Quit the app
 
